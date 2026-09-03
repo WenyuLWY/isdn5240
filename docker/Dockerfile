@@ -1,4 +1,5 @@
-FROM nvidia/cuda:12.1.0-cudnn8-devel-ubuntu20.04
+# FROM nvidia/cuda:12.1.0-cudnn8-devel-ubuntu20.04
+FROM nvidia/cuda:12.8.1-cudnn-devel-ubuntu20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 #base

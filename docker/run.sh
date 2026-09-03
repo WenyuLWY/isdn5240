@@ -27,6 +27,7 @@ done
 if grep -qi microsoft /proc/version; then # Check if running in WSL
   docker run -it --name $CONTAINER_NAME \
       --gpus all --device=/dev/dxg \
+       -p 8080:8080 \
       -e DISPLAY=$DISPLAY \
       -e WAYLAND_DISPLAY=$WAYLAND_DISPLAY \
       -e PULSE_SERVER=$PULSE_SERVER \
