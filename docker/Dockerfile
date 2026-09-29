@@ -14,10 +14,13 @@ RUN bash -c "cd /root/curobo && curl -LsSf https://astral.sh/uv/install.sh | sh 
     source .venv/bin/activate && \
     uv pip install .[cu12-torch]"
 
+RUN bash -c "source $HOME/.local/bin/env && source  $HOME/curobo/.venv/bin/activate && uv pip install ipykernel"
+
 RUN echo "source /root/curobo/.venv/bin/activate" >> ~/.bashrc     
 
 RUN echo "#!/bin/bash" > /root/start.sh && \
     echo "source /root/curobo/.venv/bin/activate" >> /root/start.sh && \
+    echo "cd /root/workspace" >> /root/start.sh && \
     echo "exec \"\$@\"" >> /root/start.sh && \
     chmod +x /root/start.sh
    
