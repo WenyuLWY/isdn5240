@@ -1,0 +1,36 @@
+{
+ "stage": "blocked",
+ "target": 5,
+ "sim_time": 614.5999999923786,
+ "picked": [
+  28,
+  24,
+  20,
+  25,
+  26,
+  17,
+  14,
+  7,
+  19,
+  18,
+  16,
+  9,
+  5
+ ],
+ "transfers": 12,
+ "placed": [
+  28,
+  24,
+  20,
+  25,
+  26,
+  17,
+  14,
+  7,
+  19,
+  18,
+  16,
+  9
+ ],
+ "snapshot": "/home/cjx/disassembly/abc_course_final/runs/main01/snapshots/12_005_blocked.npz"
+}

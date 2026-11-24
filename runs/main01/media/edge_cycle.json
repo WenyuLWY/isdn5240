@@ -1,0 +1,172 @@
+{
+ "gpu": [
+  "0",
+  "GPU-5faa4f06-c60b-e6ec-e8bc-81e8c57b0b93",
+  "17766",
+  "0"
+ ],
+ "renderer": "NVIDIA GeForce RTX 4090/PCIe/SSE2",
+ "frames": 1881,
+ "source_segments": [
+  "000_placed.npz",
+  "002_return.npz",
+  "003_placed.npz",
+  "005_return.npz",
+  "006_placed.npz",
+  "008_return.npz",
+  "009_blocked.npz",
+  "010_placed.npz",
+  "012_return.npz",
+  "013_blocked.npz",
+  "014_held.npz",
+  "015_receiver.npz",
+  "017_placed.npz",
+  "019_return.npz",
+  "020_held.npz",
+  "021_receiver.npz",
+  "023_placed.npz",
+  "025_return.npz",
+  "026_held.npz",
+  "027_receiver.npz",
+  "029_placed.npz",
+  "031_return.npz",
+  "032_held.npz",
+  "033_blocked.npz",
+  "035_blocked.npz",
+  "037_receiver.npz",
+  "039_placed.npz",
+  "041_return.npz",
+  "042_blocked.npz",
+  "043_held.npz",
+  "044_receiver.npz",
+  "046_placed.npz",
+  "048_return.npz",
+  "049_blocked.npz",
+  "050_held.npz",
+  "051_placed.npz",
+  "053_return.npz",
+  "054_held.npz",
+  "055_receiver.npz",
+  "057_placed.npz",
+  "059_return.npz",
+  "060_held.npz",
+  "061_receiver.npz",
+  "063_placed.npz",
+  "065_return.npz",
+  "066_held.npz",
+  "067_blocked.npz",
+  "068_blocked.npz",
+  "070_receiver.npz",
+  "072_placed.npz",
+  "074_return.npz",
+  "075_blocked.npz",
+  "076_held.npz",
+  "077_receiver.npz",
+  "079_placed.npz",
+  "081_return.npz",
+  "082_held.npz",
+  "083_receiver.npz",
+  "085_placed.npz",
+  "087_return.npz",
+  "088_blocked.npz",
+  "089_held.npz",
+  "090_receiver.npz",
+  "092_placed.npz",
+  "094_return.npz",
+  "095_held.npz",
+  "096_receiver.npz",
+  "098_placed.npz",
+  "100_return.npz",
+  "101_held.npz",
+  "102_receiver.npz",
+  "104_at_wall.npz",
+  "106_placed.npz",
+  "108_return.npz",
+  "109_held.npz",
+  "110_blocked.npz",
+  "112_blocked.npz"
+ ],
+ "last_source_time": 897.3169999856932,
+ "graph_frames": [
+  {
+   "t": 828.4849999873209,
+   "i": 12,
+   "stage": "selection",
+   "edges": [
+    [
+     "brick_001",
+     "brick_003"
+    ],
+    [
+     "brick_002",
+     "brick_004"
+    ],
+    [
+     "brick_002",
+     "brick_015"
+    ],
+    [
+     "brick_003",
+     "brick_013"
+    ],
+    [
+     "brick_003",
+     "brick_015"
+    ],
+    [
+     "brick_004",
+     "brick_022"
+    ],
+    [
+     "brick_008",
+     "brick_012"
+    ],
+    [
+     "brick_013",
+     "brick_022"
+    ]
+   ]
+  },
+  {
+   "t": 847.2509999868771,
+   "i": 12,
+   "stage": "held",
+   "edges": [
+    [
+     "brick_001",
+     "brick_003"
+    ],
+    [
+     "brick_002",
+     "brick_004"
+    ],
+    [
+     "brick_002",
+     "brick_015"
+    ],
+    [
+     "brick_003",
+     "brick_013"
+    ],
+    [
+     "brick_003",
+     "brick_015"
+    ],
+    [
+     "brick_004",
+     "brick_022"
+    ],
+    [
+     "brick_013",
+     "brick_022"
+    ]
+   ]
+  }
+ ],
+ "encoder_feed_and_flush_wall_s": 15.082451395690441,
+ "render_and_encode_s": 30.884451173245907,
+ "feature_brick": 12,
+ "other_speed": 16,
+ "sim_sample_interval_s": 0.04,
+ "fps": 25
+}

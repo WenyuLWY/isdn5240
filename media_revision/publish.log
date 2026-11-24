@@ -1,0 +1,39 @@
+From github.com:CaiSir0075/brick-disassembly
+ * branch            codex/ranger-feedback-v52 -> FETCH_HEAD
+Already up to date.
+Scope: topology cut, screenshots, source, README and B+C model audit
+[codex/ranger-feedback-v52 fa7ca26] Show synchronized 3D support graphs for all 30 integrated grasps
+ Committer: CAI_Junxi <cjx@cez079.ce.ust.hk>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 16 files changed, 2883 insertions(+), 827 deletions(-)
+ create mode 100644 course_demo/abc_integrated/audit_bc_assets.py
+ create mode 100644 course_demo/abc_integrated/evidence/full/audit/bc_model_assets.json
+ create mode 100644 course_demo/abc_integrated/media/main_topology.json
+ create mode 100644 course_demo/abc_integrated/media/main_topology.mp4
+ create mode 100644 course_demo/abc_integrated/media/main_topology_verification.json
+ create mode 100644 course_demo/abc_integrated/media/topology_preview_05_after.jpg
+ create mode 100644 course_demo/abc_integrated/media/topology_preview_05_lift.jpg
+ create mode 100644 course_demo/abc_integrated/media/topology_preview_05_selection.jpg
+ create mode 100644 course_demo/abc_integrated/media/topology_preview_18_lift.jpg
+ create mode 100644 course_demo/abc_integrated/media/topology_preview_30_after.jpg
+ create mode 100644 course_demo/abc_integrated/topology_cut.py
+ create mode 100644 course_demo/abc_integrated/topology_panel.py
+ create mode 100644 course_demo/abc_integrated/verify_cut.py
+To github.com:CaiSir0075/brick-disassembly.git
+   c2c97d3..fa7ca26  HEAD -> codex/ranger-feedback-v52
+From github.com:CaiSir0075/brick-disassembly
+ * branch            codex/ranger-feedback-v52 -> FETCH_HEAD
+ + c2c97d3...fa7ca26 codex/ranger-feedback-v52 -> github/codex/ranger-feedback-v52  (forced update)
+{'frames': 7673, 'duration_s': 306.92, 'sha256': '7bd74dd552e14a7f89452e06c3d926b90d3222d0e7820f5e237e2309b5ae7e58', 'all_30_grasps_and_graph_updates': True, 'exact_selection_time_alignment': True, 'shortest_selection_to_extraction_s': 3.5600000000000023, 'all_frames_decode': True, 'model_matches_bc': True}
+[集成主视频 · 逐砖三维拓扑](course_demo/abc_integrated/media/main_topology.mp4) · [逐砖结果与复现](course_demo/abc_integrated/) · [实抓至落墙的连续片段](course_demo/abc_integrated/media/mobile_cycle.mp4)

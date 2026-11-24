@@ -1,0 +1,22 @@
+{
+  "a_commit": "5a27c5132b2d6f6b9801a8f24d145ae7519b7668",
+  "bc_commit": "510e8649fc2d25ff6d6f2fa99753d9514c23d7fd",
+  "reference_graph": "/home/cjx/disassembly/worktrees/v23-topology-display-publish/results/contact_loop_v23_topology_display_20261005/render_topology.py",
+  "config": "/mnt/data/cjx_data/brick-disassembly/runs/ranger_v52/oracle73_config.yaml",
+  "config_sha256": "f36653b906b22d75db7ea51a6ebf6d2b19a155f2b6afb6efb6c80d3880d2a4c3",
+  "A_modules": {
+    "oracle_support": "ae50ff4328ba171399ea6ad28fb6af39c882dba8fbfdf1e1ec0ea932a9024698",
+    "oracle_strips": "66fe847aa268ad09dc35b37775888730ace09b28e03b01cf4651a2142b28cc42",
+    "oracle_geometry": "2e29399e3879b8093fd1f77d777ae0c8b2e581021fa1f8fa5a9fd7468e3a3aad",
+    "mobile_ranger": "db77308de10754642bcc0b9f9a67cb626c167f9bd161adb521b3cc65be053fcd",
+    "robot_model": "0792ecd297baf076352851cb4d5395b26e4b35041e8223ec1f20a1a87ca54738",
+    "robot_planning": "d07c2a2d8dd8bd3f97c4a65328c2c5c0c4fbe90d3ec87c8b87d95643fbae2db8",
+    "core": "793622fc7edb93256e415f2e24a2ec210d589b9dc5fda7310d99ef81b38302e0",
+    "runtime": "43c3d2ecea79c41f1769f76864ed3228f45a93142f045ab56a521d1b3ccf31e1"
+  },
+  "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "mujoco": "3.1.6",
+  "scipy": "1.15.3",
+  "numpy": "2.2.6",
+  "server": "cez079"
+}

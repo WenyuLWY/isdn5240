@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 71, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 39, in resume
+    s.deliver_held();s.segment('held');s.snapshot('held');stage='held'
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 284, in deliver_held
+    else:raise IKError('extraction sweep failed '+str(failures))
+rig.IKError: extraction sweep failed ["payload collision ['brick_021_geom', 'brick_024_geom']", "payload collision ['brick_021_geom', 'brick_024_geom']", "payload collision ['brick_021_geom', 'brick_024_geom']", "payload collision ['brick_021_geom', 'brick_024_geom']"]

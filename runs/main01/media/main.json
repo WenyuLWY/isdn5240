@@ -1,0 +1,683 @@
+{
+ "gpu": [
+  "0",
+  "GPU-5faa4f06-c60b-e6ec-e8bc-81e8c57b0b93",
+  "17766",
+  "0"
+ ],
+ "frame_size": [
+  1440,
+  900
+ ],
+ "renderer": "NVIDIA GeForce RTX 4090/PCIe/SSE2",
+ "frames": 3466,
+ "source_segments": [
+  "000_placed.npz",
+  "002_return.npz",
+  "003_placed.npz",
+  "005_return.npz",
+  "006_placed.npz",
+  "008_return.npz",
+  "009_blocked.npz",
+  "010_placed.npz",
+  "012_return.npz",
+  "013_blocked.npz",
+  "014_held.npz",
+  "015_receiver.npz",
+  "017_placed.npz",
+  "019_return.npz",
+  "020_held.npz",
+  "021_receiver.npz",
+  "023_placed.npz",
+  "025_return.npz",
+  "026_held.npz",
+  "027_receiver.npz",
+  "029_placed.npz",
+  "031_return.npz",
+  "032_held.npz",
+  "033_blocked.npz",
+  "035_blocked.npz",
+  "037_receiver.npz",
+  "039_placed.npz",
+  "041_return.npz",
+  "042_blocked.npz",
+  "043_held.npz",
+  "044_receiver.npz",
+  "046_placed.npz",
+  "048_return.npz",
+  "049_blocked.npz",
+  "050_held.npz",
+  "051_placed.npz",
+  "053_return.npz",
+  "054_held.npz",
+  "055_receiver.npz",
+  "057_placed.npz",
+  "059_return.npz",
+  "060_held.npz",
+  "061_receiver.npz",
+  "063_placed.npz",
+  "065_return.npz",
+  "066_held.npz",
+  "067_blocked.npz",
+  "068_blocked.npz",
+  "070_receiver.npz",
+  "072_placed.npz",
+  "074_return.npz",
+  "075_blocked.npz",
+  "076_held.npz",
+  "077_receiver.npz",
+  "079_placed.npz",
+  "081_return.npz",
+  "082_held.npz",
+  "083_receiver.npz",
+  "085_placed.npz",
+  "087_return.npz",
+  "088_blocked.npz",
+  "089_held.npz",
+  "090_receiver.npz",
+  "092_placed.npz",
+  "094_return.npz",
+  "095_held.npz",
+  "096_receiver.npz",
+  "098_placed.npz",
+  "100_return.npz",
+  "101_held.npz",
+  "102_receiver.npz",
+  "104_at_wall.npz",
+  "106_placed.npz",
+  "108_return.npz",
+  "109_held.npz",
+  "110_blocked.npz",
+  "112_blocked.npz",
+  "114_receiver.npz",
+  "116_at_wall.npz",
+  "118_placed.npz",
+  "120_return.npz",
+  "121_held.npz",
+  "122_released.npz",
+  "124_receiver.npz",
+  "126_at_wall.npz",
+  "128_placed.npz",
+  "130_return.npz",
+  "131_held.npz",
+  "132_released.npz",
+  "134_receiver.npz",
+  "136_at_wall.npz",
+  "138_placed.npz",
+  "140_return.npz",
+  "141_held.npz",
+  "142_released.npz",
+  "144_receiver.npz",
+  "146_at_wall.npz",
+  "148_placed.npz",
+  "150_return.npz",
+  "151_held.npz",
+  "152_released.npz",
+  "154_receiver.npz",
+  "156_at_wall.npz",
+  "158_placed.npz",
+  "160_return.npz",
+  "161_held.npz",
+  "162_released.npz",
+  "164_receiver.npz",
+  "166_at_wall.npz",
+  "168_placed.npz",
+  "170_return.npz",
+  "171_held.npz",
+  "172_released.npz",
+  "174_receiver.npz",
+  "176_at_wall.npz",
+  "178_placed.npz",
+  "180_return.npz",
+  "181_held.npz",
+  "182_released.npz",
+  "184_receiver.npz",
+  "186_at_wall.npz",
+  "188_placed.npz",
+  "190_return.npz",
+  "191_held.npz",
+  "192_released.npz",
+  "194_receiver.npz",
+  "196_at_wall.npz",
+  "198_blocked.npz",
+  "200_return.npz",
+  "201_held.npz",
+  "202_released.npz",
+  "204_receiver.npz",
+  "206_at_wall.npz",
+  "208_placed.npz",
+  "210_return.npz",
+  "211_clearance_ready.npz",
+  "212_declutter.npz",
+  "213_held.npz",
+  "214_released.npz",
+  "216_receiver.npz",
+  "218_at_wall.npz",
+  "220_placed.npz",
+  "222_return.npz",
+  "223_held.npz",
+  "224_released.npz",
+  "226_receiver.npz",
+  "228_at_wall.npz",
+  "230_placed.npz",
+  "232_return.npz"
+ ],
+ "last_source_time": 1538.7299999705258,
+ "graph_frames": [
+  {
+   "t": 0.8000000000000006,
+   "i": 28,
+   "stage": "selection",
+   "edges": [
+    [
+     "brick_000",
+     "brick_005"
+    ],
+    [
+     "brick_000",
+     "brick_014"
+    ],
+    [
+     "brick_001",
+     "brick_003"
+    ],
+    [
+     "brick_001",
+     "brick_007"
+    ],
+    [
+     "brick_002",
+     "brick_004"
+    ],
+    [
+     "brick_003",
+     "brick_007"
+    ],
+    [
+     "brick_003",
+     "brick_013"
+    ],
+    [
+     "brick_003",
+     "brick_015"
+    ],
+    [
+     "brick_005",
+     "brick_009"
+    ],
+    [
+     "brick_005",
+     "brick_014"
+    ],
+    [
+     "brick_005",
+     "brick_021"
+    ],
+    [
+     "brick_005",
+     "brick_024"
+    ],
+    [
+     "brick_006",
+     "brick_009"
+    ],
+    [
+     "brick_007",
+     "brick_020"
+    ],
+    [
+     "brick_007",
+     "brick_021"
+    ],
+    [
+     "brick_007",
+     "brick_025"
+    ],
+    [
+     "brick_008",
+     "brick_012"
+    ],
+    [
+     "brick_009",
+     "brick_016"
+    ],
+    [
+     "brick_009",
+     "brick_021"
+    ],
+    [
+     "brick_010",
+     "brick_011"
+    ],
+    [
+     "brick_010",
+     "brick_016"
+    ],
+    [
+     "brick_010",
+     "brick_018"
+    ],
+    [
+     "brick_011",
+     "brick_017"
+    ],
+    [
+     "brick_011",
+     "brick_018"
+    ],
+    [
+     "brick_013",
+     "brick_016"
+    ],
+    [
+     "brick_013",
+     "brick_022"
+    ],
+    [
+     "brick_014",
+     "brick_020"
+    ],
+    [
+     "brick_015",
+     "brick_022"
+    ],
+    [
+     "brick_015",
+     "brick_023"
+    ],
+    [
+     "brick_016",
+     "brick_018"
+    ],
+    [
+     "brick_016",
+     "brick_019"
+    ],
+    [
+     "brick_017",
+     "brick_026"
+    ],
+    [
+     "brick_018",
+     "brick_019"
+    ],
+    [
+     "brick_018",
+     "brick_026"
+    ],
+    [
+     "brick_019",
+     "brick_021"
+    ],
+    [
+     "brick_021",
+     "brick_025"
+    ],
+    [
+     "brick_022",
+     "brick_023"
+    ],
+    [
+     "brick_023",
+     "brick_025"
+    ],
+    [
+     "brick_023",
+     "brick_027"
+    ],
+    [
+     "brick_026",
+     "brick_029"
+    ],
+    [
+     "brick_027",
+     "brick_029"
+    ]
+   ]
+  },
+  {
+   "t": 164.42400000042105,
+   "i": 26,
+   "stage": "selection",
+   "edges": [
+    [
+     "brick_000",
+     "brick_005"
+    ],
+    [
+     "brick_000",
+     "brick_014"
+    ],
+    [
+     "brick_001",
+     "brick_003"
+    ],
+    [
+     "brick_001",
+     "brick_007"
+    ],
+    [
+     "brick_002",
+     "brick_004"
+    ],
+    [
+     "brick_002",
+     "brick_015"
+    ],
+    [
+     "brick_003",
+     "brick_007"
+    ],
+    [
+     "brick_003",
+     "brick_013"
+    ],
+    [
+     "brick_003",
+     "brick_015"
+    ],
+    [
+     "brick_004",
+     "brick_022"
+    ],
+    [
+     "brick_004",
+     "brick_027"
+    ],
+    [
+     "brick_005",
+     "brick_009"
+    ],
+    [
+     "brick_005",
+     "brick_014"
+    ],
+    [
+     "brick_006",
+     "brick_009"
+    ],
+    [
+     "brick_006",
+     "brick_010"
+    ],
+    [
+     "brick_008",
+     "brick_012"
+    ],
+    [
+     "brick_009",
+     "brick_021"
+    ],
+    [
+     "brick_010",
+     "brick_011"
+    ],
+    [
+     "brick_010",
+     "brick_016"
+    ],
+    [
+     "brick_010",
+     "brick_018"
+    ],
+    [
+     "brick_010",
+     "brick_019"
+    ],
+    [
+     "brick_011",
+     "brick_017"
+    ],
+    [
+     "brick_011",
+     "brick_018"
+    ],
+    [
+     "brick_013",
+     "brick_016"
+    ],
+    [
+     "brick_013",
+     "brick_022"
+    ],
+    [
+     "brick_015",
+     "brick_022"
+    ],
+    [
+     "brick_015",
+     "brick_023"
+    ],
+    [
+     "brick_016",
+     "brick_018"
+    ],
+    [
+     "brick_016",
+     "brick_019"
+    ],
+    [
+     "brick_017",
+     "brick_026"
+    ],
+    [
+     "brick_018",
+     "brick_026"
+    ],
+    [
+     "brick_022",
+     "brick_023"
+    ],
+    [
+     "brick_022",
+     "brick_027"
+    ],
+    [
+     "brick_023",
+     "brick_027"
+    ]
+   ]
+  },
+  {
+   "t": 180.78200000049915,
+   "i": 26,
+   "stage": "held",
+   "edges": [
+    [
+     "brick_000",
+     "brick_005"
+    ],
+    [
+     "brick_000",
+     "brick_014"
+    ],
+    [
+     "brick_001",
+     "brick_003"
+    ],
+    [
+     "brick_001",
+     "brick_007"
+    ],
+    [
+     "brick_002",
+     "brick_004"
+    ],
+    [
+     "brick_002",
+     "brick_015"
+    ],
+    [
+     "brick_003",
+     "brick_007"
+    ],
+    [
+     "brick_003",
+     "brick_013"
+    ],
+    [
+     "brick_003",
+     "brick_015"
+    ],
+    [
+     "brick_004",
+     "brick_022"
+    ],
+    [
+     "brick_004",
+     "brick_027"
+    ],
+    [
+     "brick_005",
+     "brick_009"
+    ],
+    [
+     "brick_005",
+     "brick_014"
+    ],
+    [
+     "brick_006",
+     "brick_009"
+    ],
+    [
+     "brick_006",
+     "brick_010"
+    ],
+    [
+     "brick_008",
+     "brick_012"
+    ],
+    [
+     "brick_009",
+     "brick_021"
+    ],
+    [
+     "brick_010",
+     "brick_011"
+    ],
+    [
+     "brick_010",
+     "brick_018"
+    ],
+    [
+     "brick_010",
+     "brick_019"
+    ],
+    [
+     "brick_011",
+     "brick_017"
+    ],
+    [
+     "brick_011",
+     "brick_018"
+    ],
+    [
+     "brick_013",
+     "brick_016"
+    ],
+    [
+     "brick_013",
+     "brick_022"
+    ],
+    [
+     "brick_015",
+     "brick_022"
+    ],
+    [
+     "brick_015",
+     "brick_023"
+    ],
+    [
+     "brick_016",
+     "brick_018"
+    ],
+    [
+     "brick_016",
+     "brick_019"
+    ],
+    [
+     "brick_022",
+     "brick_023"
+    ],
+    [
+     "brick_022",
+     "brick_027"
+    ],
+    [
+     "brick_023",
+     "brick_027"
+    ]
+   ]
+  }
+ ],
+ "video_markers": {
+  "selection": {
+   "output_s": 9.76,
+   "sim_s": 164.42400000042105,
+   "brick": 26
+  },
+  "test_lift": {
+   "output_s": 24.08,
+   "sim_s": 177.28000000048243,
+   "brick": 26
+  },
+  "held": {
+   "output_s": 27.56,
+   "sim_s": 180.78200000049915,
+   "brick": 26
+  },
+  "dual": {
+   "output_s": 38.32,
+   "sim_s": 190.12000000054374,
+   "brick": 26
+  },
+  "drive_wall": {
+   "output_s": 44.68,
+   "sim_s": 196.4800000005741,
+   "brick": 26
+  },
+  "moving": {
+   "output_s": 45.68,
+   "sim_s": 197.48000000057888,
+   "brick": 26
+  },
+  "release": {
+   "output_s": 57.44,
+   "sim_s": 209.24000000063504,
+   "brick": 26
+  },
+  "push_clearance": {
+   "output_s": 126.28,
+   "sim_s": 1422.3599999732776,
+   "brick": 10
+  },
+  "wall": {
+   "output_s": 136.04,
+   "sim_s": 1538.7299999705258,
+   "brick": 11
+  }
+ },
+ "course_freezes": [
+  {
+   "count": 10,
+   "time": 477.31999999562476,
+   "frames": 30
+  },
+  {
+   "count": 18,
+   "time": 884.3999999859986,
+   "frames": 30
+  },
+  {
+   "count": 24,
+   "time": 1189.5199999787835,
+   "frames": 30
+  }
+ ],
+ "encoder_feed_and_flush_wall_s": 67.16401794739068,
+ "render_and_encode_s": 119.15792524442077,
+ "feature_brick": 26,
+ "other_speed": 22,
+ "sim_sample_interval_s": 0.04,
+ "fps": 25
+}

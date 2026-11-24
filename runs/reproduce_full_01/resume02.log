@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 71, in <module>
+    s.event('cycle',slot=len(s.accepted)-1,wall_s=time.monotonic()-real,sim_s=s.d.time-start,stages=dict(s.clock),time_scope='restored portion')
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 66, in resume
+    s.place();s.segment('placed');s.snapshot('placed');stage='placed'
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 355, in cycle
+    h=self.grasp_feedback(r,f);self.segment('held');self.snapshot('held')
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 474, in place
+    candidates.append((duration,path,orient,True));break
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 66, in move
+    def move(self,phase,*args,**kw):
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 286, in move
+    self.step(phase)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 57, in step
+    super().step(phase)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 30, in step
+    super().step(phase,solved=self.vac.on)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 260, in step
+    raise ContactError(f"{phase} collision {err}")
+rig.ContactError: return collision ('bracelet_link_1', 'rear_arm__half_arm_1_link_1', -0.008684410746768222)

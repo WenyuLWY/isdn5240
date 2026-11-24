@@ -1,0 +1,31 @@
+From github.com:CaiSir0075/brick-disassembly
+ * branch            codex/ranger-feedback-v52 -> FETCH_HEAD
+Already up to date.
+[codex/ranger-feedback-v52 c2c97d3] Add as-built wall figures and the guarded final-pair clearance audit
+ Committer: CAI_Junxi <cjx@cez079.ce.ust.hk>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 263 insertions(+), 13 deletions(-)
+ create mode 100644 course_demo/abc_integrated/evidence/full/audit/passage.json
+ create mode 100644 course_demo/abc_integrated/media/wall_as_built.jpg
+ create mode 100644 course_demo/abc_integrated/media/wall_plan.png
+ create mode 100644 course_demo/abc_integrated/passage_audit.py
+ create mode 100644 course_demo/abc_integrated/wall_figure.py
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File course_demo/abc_integrated/defense.zip is 66.57 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:CaiSir0075/brick-disassembly.git
+   6c77e2d..c2c97d3  HEAD -> codex/ranger-feedback-v52
+From github.com:CaiSir0075/brick-disassembly
+ * branch            codex/ranger-feedback-v52 -> FETCH_HEAD
+c2c97d3a5a31bb5c28c9aeb4bf3cceeaa8bd84bd

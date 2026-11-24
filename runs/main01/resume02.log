@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 48, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 43, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 237, in cycle
+    self.transfer(h);self.segment('receiver');self.snapshot('receiver')
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 294, in transfer
+    home_path=route(self,0,self.home_joints[0])
+  File "/home/cjx/disassembly/abc_course_final/joint_path.py", line 32, in route
+    raise IKError('empty-arm roadmap target collision')
+rig.IKError: empty-arm roadmap target collision

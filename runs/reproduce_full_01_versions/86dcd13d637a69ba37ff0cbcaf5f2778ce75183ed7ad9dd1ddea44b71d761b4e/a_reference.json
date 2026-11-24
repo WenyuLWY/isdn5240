@@ -1,0 +1,104 @@
+{
+  "source": "/mnt/data/cjx_data/brick-disassembly/runs/ranger_v52/oracle29/scenes/RANGER33/cycle_001/oracle_held_trial/segment_02/motion/end_snapshot",
+  "snapshot": "d54e927b2920fc970f46c98056d482e193cd5e8341c39ad59cba3b0f9f9e73d0",
+  "time": 2882.741000128542,
+  "brick": "brick_027_geom",
+  "site_in_brick": [
+    3.7863865158147845e-06,
+    -6.233662912417806e-07,
+    0.032216624087875116
+  ],
+  "site_rotation_in_brick": [
+    [
+      5.869001248245049e-05,
+      0.9999999977685945,
+      -3.191060882144715e-05
+    ],
+    [
+      0.9999999978799141,
+      -5.868911231944756e-05,
+      2.8209098068543727e-05
+    ],
+    [
+      2.820722520029278e-05,
+      -3.1912264346111795e-05,
+      -0.9999999990929767
+    ]
+  ],
+  "size": [
+    0.12,
+    0.058,
+    0.027
+  ],
+  "pad1_in_site": [
+    0.032969793493655794,
+    -6.118522547815358e-17,
+    0.02862201400777308
+  ],
+  "contacts": [
+    [
+      "brick_027_geom",
+      "right_pad1"
+    ],
+    [
+      "brick_027_geom",
+      "right_pad1"
+    ],
+    [
+      "brick_027_geom",
+      "right_pad1"
+    ],
+    [
+      "brick_027_geom",
+      "right_pad1"
+    ],
+    [
+      "brick_027_geom",
+      "right_pad2"
+    ],
+    [
+      "brick_027_geom",
+      "right_pad2"
+    ],
+    [
+      "brick_027_geom",
+      "right_pad2"
+    ],
+    [
+      "brick_027_geom",
+      "right_pad2"
+    ],
+    [
+      "brick_027_geom",
+      "left_pad1"
+    ],
+    [
+      "brick_027_geom",
+      "left_pad1"
+    ],
+    [
+      "brick_027_geom",
+      "left_pad1"
+    ],
+    [
+      "brick_027_geom",
+      "left_pad1"
+    ],
+    [
+      "brick_027_geom",
+      "left_pad2"
+    ],
+    [
+      "brick_027_geom",
+      "left_pad2"
+    ],
+    [
+      "brick_027_geom",
+      "left_pad2"
+    ],
+    [
+      "brick_027_geom",
+      "left_pad2"
+    ]
+  ]
+}

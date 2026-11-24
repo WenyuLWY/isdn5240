@@ -1,0 +1,7 @@
+{
+  "steps": 180,
+  "original_s": 0.6407076884061098,
+  "split_s": 0.3098542019724846,
+  "max_qpos_difference": 5.8766635224749564e-08,
+  "max_qvel_difference": 1.966251376071598e-06
+}

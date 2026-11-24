@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 78, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 42, in resume
+    s.after_donor_release((-s.vac.initial_axes.T@s.vac.local_anchor,s.vac.initial_axes.T))
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 309, in after_donor_release
+    else:return self.separate_hands(prior)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 337, in separate_hands
+    raise IKError("no collision-free donor retreat")
+rig.IKError: no collision-free donor retreat

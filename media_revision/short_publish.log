@@ -1,0 +1,29 @@
+From github.com:CaiSir0075/brick-disassembly
+ * branch            codex/ranger-feedback-v52 -> FETCH_HEAD
+Already up to date.
+[codex/ranger-feedback-v52 19cd099] Add a two-minute integrated 30-brick topology cut
+ Committer: CAI_Junxi <cjx@cez079.ce.ust.hk>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 1272 insertions(+), 3 deletions(-)
+ create mode 100644 course_demo/abc_integrated/media/main_topology_2min.json
+ create mode 100644 course_demo/abc_integrated/media/main_topology_2min.mp4
+ create mode 100644 course_demo/abc_integrated/media/main_topology_2min_verification.json
+ create mode 100644 course_demo/abc_integrated/topology_short.py
+To github.com:CaiSir0075/brick-disassembly.git
+   fa7ca26..19cd099  HEAD -> codex/ranger-feedback-v52
+From github.com:CaiSir0075/brick-disassembly
+ * branch            codex/ranger-feedback-v52 -> FETCH_HEAD
+ + fa7ca26...19cd099 codex/ranger-feedback-v52 -> github/codex/ranger-feedback-v52  (forced update)
+{'frames': 3000, 'duration_s': 120.0, 'sha256': 'd4d5b107ea6456379e36a7e93dca6c2be2bd967bb6e90012c5ac8410aa9145c6', 'all_30_grasps_and_graph_updates': True, 'exact_selection_time_alignment': True, 'shortest_selection_to_extraction_s': 1.8399999999999892, 'all_frames_decode': True, 'model_matches_bc': True}
+[集成主视频 · 2 分钟版](course_demo/abc_integrated/media/main_topology_2min.mp4) · [完整版 · 逐砖三维拓扑](course_demo/abc_integrated/media/main_topology.mp4) · [逐砖结果与复现](course_demo/abc_integrated/) · [实抓至落墙的连续片段](course_demo/abc_integrated/media/mobile_cycle.mp4)

@@ -1,0 +1,10 @@
+{
+  "frames": 3000,
+  "duration_s": 120.0,
+  "sha256": "d4d5b107ea6456379e36a7e93dca6c2be2bd967bb6e90012c5ac8410aa9145c6",
+  "all_30_grasps_and_graph_updates": true,
+  "exact_selection_time_alignment": true,
+  "shortest_selection_to_extraction_s": 1.8399999999999892,
+  "all_frames_decode": true,
+  "model_matches_bc": true
+}

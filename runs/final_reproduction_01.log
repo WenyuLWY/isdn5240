@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/versions/delivery_candidate_01/integrated.py", line 391, in <module>
+    try:s.main(args.limit)
+  File "/home/cjx/disassembly/abc_course_final/versions/delivery_candidate_01/integrated.py", line 385, in main
+    while len(self.accepted)<limit:self.cycle()
+  File "/home/cjx/disassembly/abc_course_final/versions/delivery_candidate_01/integrated.py", line 378, in cycle
+    self.place()
+  File "/home/cjx/disassembly/abc_course_final/versions/delivery_candidate_01/demo.py", line 432, in place
+    self.place_at_wall(p,R,layer)
+  File "/home/cjx/disassembly/abc_course_final/versions/delivery_candidate_01/demo.py", line 452, in place_at_wall
+    self.park_donor_at_wall()
+  File "/home/cjx/disassembly/abc_course_final/versions/delivery_candidate_01/demo.py", line 446, in park_donor_at_wall
+    else:raise IKError("no safe donor parking before loaded descent")
+rig.IKError: no safe donor parking before loaded descent

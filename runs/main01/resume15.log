@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 71, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 59, in resume
+    s.transfer(h);s.segment('receiver');s.snapshot('receiver');stage='receiver'
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 303, in transfer
+    self.finish_handover(prior)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 367, in finish_handover
+    self.move("rear_only",.8,{1:path})
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 66, in move
+    try:return super().move(phase,*args,**kw)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 286, in move
+    self.step(phase)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 57, in step
+    super().step(phase)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 29, in step
+    self.vac.check(phase,split=True)
+  File "/home/cjx/disassembly/abc_course_final/vacuum.py", line 175, in check
+    raise ContactError("vacuum capacity exceeded: " + str(levels))
+rig.ContactError: vacuum capacity exceeded: [1.05849455 0.78970522 0.05994402 0.47446746]

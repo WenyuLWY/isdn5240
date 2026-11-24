@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 48, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 43, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 203, in cycle
+    h=self.grasp(r,f);self.segment('held');self.snapshot('held')
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 155, in grasp
+    xy,yaw,f,offset,flip=self.pick_plan(row,f)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 152, in pick_plan
+    self.event('pick_rejections',reasons=failures);raise IKError(f'no qualified station for {row["brick_id"]}: {failures[-3:]}')
+rig.IKError: no qualified station for brick_026: ["('work_table', 'ranger_base_collision', -0.0012770441332447503)", "('work_table', 'ranger_base_collision', -0.010365334320712601)", "('work_table', 'ranger_base_collision', -0.009412005995580317)"]

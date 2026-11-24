@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/versions/fresh_run_01/integrated.py", line 344, in <module>
+    try:s.main(args.limit)
+  File "/home/cjx/disassembly/abc_course_final/versions/fresh_run_01/integrated.py", line 338, in main
+    while len(self.accepted)<limit:self.cycle()
+  File "/home/cjx/disassembly/abc_course_final/versions/fresh_run_01/integrated.py", line 329, in cycle
+    h=self.grasp_feedback(r,f);self.segment('held');self.snapshot('held')
+  File "/home/cjx/disassembly/abc_course_final/versions/fresh_run_01/integrated.py", line 284, in grasp_feedback
+    try:return self.grasp(row,family)
+  File "/home/cjx/disassembly/abc_course_final/versions/fresh_run_01/integrated.py", line 239, in grasp
+    return self.deliver_held()
+  File "/home/cjx/disassembly/abc_course_final/versions/fresh_run_01/integrated.py", line 270, in deliver_held
+    else:raise IKError('extraction sweep failed '+str(failures))
+rig.IKError: extraction sweep failed ["payload collision ['brick_021_geom', 'brick_024_geom']", "payload collision ['brick_021_geom', 'brick_024_geom']", "payload collision ['brick_021_geom', 'brick_024_geom']", "payload collision ['brick_021_geom', 'brick_024_geom']"]

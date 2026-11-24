@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 363, in cycle
+    try:r,g,f,a=select(self);break
+  File "/home/cjx/disassembly/abc_course_final/axes.py", line 42, in select
+    raise NoGrasp('no bilateral common strip amongst permitted endpoints')
+declutter_native.NoGrasp: no bilateral common strip amongst permitted endpoints
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 84, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 79, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 368, in cycle
+    push(self)
+  File "/home/cjx/disassembly/abc_course_final/declutter_native.py", line 90, in push
+    s.cart('push_clearance',0,(origin+dist*v,frame),.30)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 329, in cart
+    self.move(phase,duration,{a:self.cart_path(phase,a,target,tries)})
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 71, in move
+    try:return super().move(phase,*args,**kw)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 286, in move
+    self.step(phase)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 60, in step
+    monitor(self)
+  File "/home/cjx/disassembly/abc_course_final/declutter_native.py", line 110, in monitor
+    if target+'_geom' not in pair or not hand.startswith(('left_pad','right_pad')):raise ContactError('unexpected declutter contact '+str((pair,w[0])))
+rig.ContactError: unexpected declutter contact (['brick_010_geom', 'left_follower_1'], np.float64(1.1412200937098418))

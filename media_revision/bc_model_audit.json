@@ -1,0 +1,42 @@
+{
+  "reference": "510e8649fc2d25ff6d6f2fa99753d9514c23d7fd",
+  "reference_scene_sha256": "213114d65e0d29d4c0a20724c861d578ce02fc349a5cb3be99d219fec97b4d89",
+  "integrated_scene_sha256": "0fad344e03ed24ba34cae8e9b87faaa107f4640b79d78ed04ac0f53931075f77",
+  "platform": "Ranger Mini V3 / 2 \u00d7 Kinova Gen3",
+  "front_tool": "Robotiq 2F-85",
+  "rear_tool": "Schmalz Cobot Pump ECBPi 12",
+  "matching_body_frames": 49,
+  "matched_robot_geoms": 108,
+  "asset_sha256": {
+    "arm_installation_foot_mesh": "8b3a0faa5ac0a69939f3ff620a9661708c92c9d787371a5f71e364994877b09b",
+    "base": "1c7b9f2bd92d705fc4e897c94e905973a3c05f406845e942229433deb7041453",
+    "bracelet_with_vision_link": "8bb05e420a88532b4eee3948a0047fb8e7f341c3e5cc971d54e97e2aaffcf878",
+    "coupler": "d5ee95e62f8415bf5b6e503c831a958f5fc1990bf9b2865329ec38a28932727c",
+    "driver": "bbd6e868b1778bead60d2516c7ede581d7ad4e431744b1828757d6ea5129c112",
+    "follower": "633793332c081641ce200df27a40643cc293b29956e3cb5cb29cb811c33ef1c7",
+    "forearm_link": "a00d96d2c7ec37e9fe4c5fb6d3fa2b4386dfd48fea5ac25632f4cb83b3505105",
+    "gen3/base_link": "3e38517e653d58f4160cfdcee34c9dea983d8b3ecb8f2c147444f58235335260",
+    "half_arm_1_link": "8df461a71780d8e2d09104a507584424279d85173adf14867e359f7e58b3bba7",
+    "half_arm_2_link": "8a9f38de21648804b3ab7076ec73726031f2ade7c95eb2541d070553e025407b",
+    "pad": "4af1fa8d9bb285abecbf5dfc88e74cb30f059a7a074c2030dc35e9ee4316019d",
+    "ranger_base": "6bc142cfeba07f50e202d8fa9f2e7de8047f2c76ca1ad36ef732396aef9953a5",
+    "schmalz_visual": "a00f8acc46fa2e1746a7543c3e964a01dc47c9c1fc941099f6cdb05472249db8",
+    "shoulder_link": "a98e232e5197f09e9cd520e7a450c21bcec74bc49e2a19ce7cf86c5dc25f2e18",
+    "silicone_pad": "ca20c0fa61e6d3ce7b04bed25360e048e31dfd88ace04187aa6d9e8f4ca3fd0f",
+    "spherical_wrist_1_link": "0b97a5e3b2de535344f8e8d4176d77f0cdb3455b235f35430fa0413208856e66",
+    "spherical_wrist_2_link": "12271fb7d0ee78fb5642424cf5078be20f0476061e74203db964b674031ce879",
+    "spring_link": "4fb74a8a0d76c0e471cf19fd48bc676fd5b19123798e7a39eb6aa56869354283",
+    "steering_wheel": "94291fc91db01cefe5855f3e8400e8b4679ef42b2fc6601907866bb312e6066d",
+    "wheel_v3": "32ab50860fdbc637391df1572fa775421a1a1923e1c1657c50ec21c6a9f9d3ab"
+  },
+  "integrated_changes": {
+    "hidden_tire_collision_geoms": [
+      "fl_wheel_collision",
+      "fr_wheel_collision",
+      "rl_wheel_collision",
+      "rr_wheel_collision"
+    ],
+    "free_chassis": true,
+    "independently_steered_and_driven_wheels": 4
+  }
+}

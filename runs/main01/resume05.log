@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 58, in <module>
+    s.event('complete',counts=[len(s.picked),s.transfers,len(s.accepted)]);s.segment('end');s.snapshot('complete')
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 53, in resume
+    if stage=='placed':
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 239, in cycle
+    p=self.out/'snapshots';p.mkdir(exist_ok=True)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 194, in grasp
+    self.i=int(row['brick_id'][6:]);t=time.monotonic()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 133, in drive
+    self.drive_leg(point,heading,phase if k==len(steps)-1 else phase+"_waypoint")
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 103, in drive_leg
+    self.step(phase)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 55, in step
+    super().step(phase)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 30, in step
+    super().step(phase,solved=self.vac.on)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 258, in step
+    raise ContactError(f"{phase} collision {err}")
+rig.ContactError: reposition collision ('work_table', 'ranger_base_collision', -6.172335353780823e-05)

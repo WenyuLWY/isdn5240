@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 66, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 61, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 295, in cycle
+    h=self.grasp_feedback(r,f);self.segment('held');self.snapshot('held')
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 250, in grasp_feedback
+    try:return self.grasp(row,family)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 239, in grasp
+    p,R=self.site(0);self.cart('extract',0,(p+.11*UP,R),.8)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 327, in cart
+    
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 304, in cart_path
+    seed = self.goals[a]
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 232, in iksolve
+    j[[1, 3, 5]], [-2.235, -2.565, -2.085], [2.235, 2.565, 2.085]
+rig.IKError: arm=0 target=[ 0.5012 -0.2887  0.4662] min_position=0.00234 collision=None

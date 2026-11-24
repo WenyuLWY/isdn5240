@@ -1,0 +1,550 @@
+{
+  "course_counts": [
+    10,
+    8,
+    6,
+    6
+  ],
+  "targets": [
+    {
+      "id": 0,
+      "course": 1,
+      "center_m": [
+        0.253,
+        0.45,
+        0.0135
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {},
+      "ground": true
+    },
+    {
+      "id": 1,
+      "course": 1,
+      "center_m": [
+        0.33,
+        0.45,
+        0.0135
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {},
+      "ground": true
+    },
+    {
+      "id": 2,
+      "course": 1,
+      "center_m": [
+        0.253,
+        0.5780000000000001,
+        0.0135
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {},
+      "ground": true
+    },
+    {
+      "id": 3,
+      "course": 1,
+      "center_m": [
+        0.33,
+        0.5780000000000001,
+        0.0135
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {},
+      "ground": true
+    },
+    {
+      "id": 4,
+      "course": 1,
+      "center_m": [
+        0.253,
+        0.706,
+        0.0135
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {},
+      "ground": true
+    },
+    {
+      "id": 5,
+      "course": 1,
+      "center_m": [
+        0.33,
+        0.706,
+        0.0135
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {},
+      "ground": true
+    },
+    {
+      "id": 6,
+      "course": 1,
+      "center_m": [
+        0.253,
+        0.8340000000000001,
+        0.0135
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {},
+      "ground": true
+    },
+    {
+      "id": 7,
+      "course": 1,
+      "center_m": [
+        0.33,
+        0.8340000000000001,
+        0.0135
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {},
+      "ground": true
+    },
+    {
+      "id": 8,
+      "course": 1,
+      "center_m": [
+        0.253,
+        0.962,
+        0.0135
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {},
+      "ground": true
+    },
+    {
+      "id": 9,
+      "course": 1,
+      "center_m": [
+        0.33,
+        0.962,
+        0.0135
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {},
+      "ground": true
+    },
+    {
+      "id": 10,
+      "course": 2,
+      "center_m": [
+        0.253,
+        0.514,
+        0.0405
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "0": 0.0032480000000000026,
+        "2": 0.0032480000000000057
+      },
+      "ground": false
+    },
+    {
+      "id": 11,
+      "course": 2,
+      "center_m": [
+        0.33,
+        0.514,
+        0.0405
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "1": 0.0032480000000000026,
+        "3": 0.0032480000000000057
+      },
+      "ground": false
+    },
+    {
+      "id": 12,
+      "course": 2,
+      "center_m": [
+        0.253,
+        0.642,
+        0.0405
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "2": 0.003248000000000012,
+        "4": 0.003248000000000012
+      },
+      "ground": false
+    },
+    {
+      "id": 13,
+      "course": 2,
+      "center_m": [
+        0.33,
+        0.642,
+        0.0405
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "3": 0.003248000000000012,
+        "5": 0.003248000000000012
+      },
+      "ground": false
+    },
+    {
+      "id": 14,
+      "course": 2,
+      "center_m": [
+        0.253,
+        0.77,
+        0.0405
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "4": 0.0032480000000000057,
+        "6": 0.0032480000000000057
+      },
+      "ground": false
+    },
+    {
+      "id": 15,
+      "course": 2,
+      "center_m": [
+        0.33,
+        0.77,
+        0.0405
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "5": 0.0032480000000000057,
+        "7": 0.0032480000000000057
+      },
+      "ground": false
+    },
+    {
+      "id": 16,
+      "course": 2,
+      "center_m": [
+        0.253,
+        0.898,
+        0.0405
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "6": 0.003248000000000012,
+        "8": 0.003248000000000012
+      },
+      "ground": false
+    },
+    {
+      "id": 17,
+      "course": 2,
+      "center_m": [
+        0.33,
+        0.898,
+        0.0405
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "7": 0.003248000000000012,
+        "9": 0.003248000000000012
+      },
+      "ground": false
+    },
+    {
+      "id": 18,
+      "course": 3,
+      "center_m": [
+        0.253,
+        0.5780000000000001,
+        0.0675
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "10": 0.0032480000000000057,
+        "12": 0.003248000000000012
+      },
+      "ground": false
+    },
+    {
+      "id": 19,
+      "course": 3,
+      "center_m": [
+        0.33,
+        0.5780000000000001,
+        0.0675
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "11": 0.0032480000000000057,
+        "13": 0.003248000000000012
+      },
+      "ground": false
+    },
+    {
+      "id": 20,
+      "course": 3,
+      "center_m": [
+        0.253,
+        0.706,
+        0.0675
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "12": 0.003248000000000012,
+        "14": 0.0032480000000000057
+      },
+      "ground": false
+    },
+    {
+      "id": 21,
+      "course": 3,
+      "center_m": [
+        0.33,
+        0.706,
+        0.0675
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "13": 0.003248000000000012,
+        "15": 0.0032480000000000057
+      },
+      "ground": false
+    },
+    {
+      "id": 22,
+      "course": 3,
+      "center_m": [
+        0.253,
+        0.8340000000000001,
+        0.0675
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "14": 0.0032480000000000057,
+        "16": 0.003248000000000012
+      },
+      "ground": false
+    },
+    {
+      "id": 23,
+      "course": 3,
+      "center_m": [
+        0.33,
+        0.8340000000000001,
+        0.0675
+      ],
+      "wall_long_axis_world": [
+        2.220446049250313e-16,
+        1.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "15": 0.0032480000000000057,
+        "17": 0.003248000000000012
+      },
+      "ground": false
+    },
+    {
+      "id": 24,
+      "course": 4,
+      "center_m": [
+        0.2915,
+        0.5509999999999999,
+        0.0945
+      ],
+      "wall_long_axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "18": 0.0029290000000000054,
+        "19": 0.002929000000000002
+      },
+      "ground": false
+    },
+    {
+      "id": 25,
+      "course": 4,
+      "center_m": [
+        0.2915,
+        0.613,
+        0.0945
+      ],
+      "wall_long_axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "18": 0.0027270000000000107,
+        "19": 0.0027270000000000076
+      },
+      "ground": false
+    },
+    {
+      "id": 26,
+      "course": 4,
+      "center_m": [
+        0.2915,
+        0.6749999999999999,
+        0.0945
+      ],
+      "wall_long_axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "20": 0.0029290000000000054,
+        "21": 0.002929000000000002
+      },
+      "ground": false
+    },
+    {
+      "id": 27,
+      "course": 4,
+      "center_m": [
+        0.2915,
+        0.737,
+        0.0945
+      ],
+      "wall_long_axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "20": 0.0029290000000000054,
+        "21": 0.002929000000000002
+      },
+      "ground": false
+    },
+    {
+      "id": 28,
+      "course": 4,
+      "center_m": [
+        0.2915,
+        0.7989999999999999,
+        0.0945
+      ],
+      "wall_long_axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "22": 0.0027269999999999994,
+        "23": 0.0027269999999999964
+      },
+      "ground": false
+    },
+    {
+      "id": 29,
+      "course": 4,
+      "center_m": [
+        0.2915,
+        0.861,
+        0.0945
+      ],
+      "wall_long_axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "candidate_support_area_m2": {
+        "22": 0.0029290000000000054,
+        "23": 0.002929000000000002
+      },
+      "ground": false
+    }
+  ]
+}

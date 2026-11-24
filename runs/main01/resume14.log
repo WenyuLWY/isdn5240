@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 71, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 59, in resume
+    s.transfer(h);s.segment('receiver');s.snapshot('receiver');stage='receiver'
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 303, in transfer
+    self.finish_handover(prior)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 354, in finish_handover
+    self.move("clear",max(.70,1.3*delta),{0:[waypoint]})
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 66, in move
+    try:return super().move(phase,*args,**kw)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 286, in move
+    self.step(phase)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 57, in step
+    super().step(phase)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 30, in step
+    super().step(phase,solved=self.vac.on)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 260, in step
+    raise ContactError(f"{phase} collision {err}")
+rig.ContactError: clear collision ('camera_housing', 'gen3_base_link_1', -0.0010960815506359345)

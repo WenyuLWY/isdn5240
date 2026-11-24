@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "github"]
+	url = git@github.com:CaiSir0075/brick-disassembly.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+	partialclonefilter = blob:none

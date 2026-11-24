@@ -1,0 +1,9 @@
+samples (command, gap mm) [(0, 85.1), (5, 84.4), (10, 83.2), (15, 81.9), (20, 80.5), (25, 79.0), (30, 77.5), (35, 76.0), (40, 74.4), (45, 72.9), (50, 71.3), (55, 69.7), (60, 68.1), (65, 66.5), (70, 64.8), (75, 63.2), (80, 61.5)]
+allowed ['brick_006', 'brick_010', 'brick_011', 'brick_012', 'brick_015', 'brick_022', 'brick_029']
+FAIL brick_006 1.0 {'no_common_bilateral_strip': 374, 'brick_width_exceeds_native_aperture': 374}
+FAIL brick_010 1.0 {'no_common_bilateral_strip': 374, 'brick_width_exceeds_native_aperture': 374}
+FAIL brick_011 1.0 {'no_common_bilateral_strip': 374, 'brick_width_exceeds_native_aperture': 374}
+FAIL brick_012 0.0 {'no_common_bilateral_strip': 374, 'brick_width_exceeds_native_aperture': 374}
+FAIL brick_015 0.926 {'no_common_bilateral_strip': 374, 'brick_width_exceeds_native_aperture': 374}
+FAIL brick_022 0.944 {'no_common_bilateral_strip': 374, 'brick_width_exceeds_native_aperture': 374}
+FAIL brick_029 0.0 {'no_common_bilateral_strip': 374, 'brick_width_exceeds_native_aperture': 374}

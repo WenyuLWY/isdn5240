@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 82, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 77, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 356, in cycle
+    self.transfer(h);self.segment('receiver');self.snapshot('receiver')
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 295, in transfer
+    self.after_donor_release(prior)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 309, in after_donor_release
+    else:return self.separate_hands(prior)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 321, in separate_hands
+    else:raise IKError("no collision-free loaded receiver lift")
+rig.IKError: no collision-free loaded receiver lift

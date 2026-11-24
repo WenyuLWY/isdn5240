@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 82, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 77, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 367, in cycle
+    r,g,f,a=select(self)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 432, in place
+    self.place_at_wall(p,R,layer)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 533, in place_at_wall
+    path=route(self,arm,goal,max_seconds=4)
+  File "/home/cjx/disassembly/abc_course_final/joint_path.py", line 54, in route
+    raise IKError('empty-arm roadmap target collision')
+rig.IKError: empty-arm roadmap target collision

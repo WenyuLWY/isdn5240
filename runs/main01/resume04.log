@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 54, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 49, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 236, in cycle
+    h=self.grasp(r,f);self.segment('held');self.snapshot('held')
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 191, in grasp
+    if np.linalg.norm(p[:2]-xy)>.012 or abs((yaw-np.arctan2(R[1,0],R[0,0])+np.pi)%(2*np.pi)-np.pi)>.025:self.drive(xy,yaw,'reposition')
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 130, in drive
+    self.drive_leg(point,heading,phase if k==len(steps)-1 else phase+"_waypoint")
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 101, in drive_leg
+    else:raise RuntimeError(f'drive timeout {phase}: error {dist} yaw {angle_err} actual {p} goal {xy}')
+RuntimeError: drive timeout reposition: error 0.00413110225407571 yaw 0.006736350901772603 actual [0.28286888 0.45889206 0.29965245] goal [0.28684864 0.46      ]

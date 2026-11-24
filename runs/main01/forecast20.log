@@ -1,0 +1,9 @@
+brick_015 native shape
+brick_022 native shape
+brick_013 OBB
+brick_003 OBB
+brick_004 native shape
+brick_006 OBB
+brick_002 OBB
+brick_001 OBB
+geometric stopping set ['brick_010', 'brick_011']

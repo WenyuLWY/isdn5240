@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 63, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 58, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 292, in cycle
+    self.transfer(h);self.segment('receiver');self.snapshot('receiver')
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 243, in transfer
+    pre_j=self.iksolve(1,pre,self.planned_pre,tries=6)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 232, in iksolve
+    raise IKError(
+rig.IKError: arm=1 target=[0.5825 0.4133 0.5643] min_position=0.00011 collision=('half_arm_1_link_1', 'rear_arm__half_arm_2_link_1', -0.020645591699437842)

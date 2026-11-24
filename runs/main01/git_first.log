@@ -1,0 +1,68 @@
+From github.com:CaiSir0075/brick-disassembly
+ * branch            codex/ranger-feedback-v52 -> FETCH_HEAD
+Already up to date.
+[codex/ranger-feedback-v52 d174e5e] Record first continuous topology-selected pile-to-wall cycle
+ Committer: CAI_Junxi <cjx@cez079.ce.ust.hk>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 45 files changed, 6176 insertions(+)
+ create mode 100644 course_demo/abc_integrated/README.md
+ create mode 100644 course_demo/abc_integrated/a_reference.json
+ create mode 100644 course_demo/abc_integrated/audit.py
+ create mode 100644 course_demo/abc_integrated/axes.py
+ create mode 100644 course_demo/abc_integrated/baseline_input.py
+ create mode 100644 course_demo/abc_integrated/benchmark_step.py
+ create mode 100644 course_demo/abc_integrated/build_pump.py
+ create mode 100644 course_demo/abc_integrated/clearance_check.py
+ create mode 100644 course_demo/abc_integrated/demo.py
+ create mode 100644 course_demo/abc_integrated/egl.py
+ create mode 100644 course_demo/abc_integrated/env.sh
+ create mode 100644 course_demo/abc_integrated/evidence/01_028_returned.npz
+ create mode 100644 course_demo/abc_integrated/evidence/cpu_tuning.json
+ create mode 100644 course_demo/abc_integrated/evidence/first_cycle/000_placed.npz
+ create mode 100644 course_demo/abc_integrated/evidence/first_cycle/002_return.npz
+ create mode 100644 course_demo/abc_integrated/evidence/first_cycle/events.jsonl
+ create mode 100644 course_demo/abc_integrated/evidence/scene.xml
+ create mode 100644 course_demo/abc_integrated/evidence/source.json
+ create mode 100644 course_demo/abc_integrated/evidence/step_benchmark.json
+ create mode 100644 course_demo/abc_integrated/film.py
+ create mode 100644 course_demo/abc_integrated/graph_view.py
+ create mode 100644 course_demo/abc_integrated/ik_seeds.json
+ create mode 100644 course_demo/abc_integrated/integrated.py
+ create mode 100644 course_demo/abc_integrated/joint_path.py
+ create mode 100644 course_demo/abc_integrated/layout30.json
+ create mode 100644 course_demo/abc_integrated/media/loop_verified.json
+ create mode 100644 course_demo/abc_integrated/media/loop_verified.mp4
+ create mode 100644 course_demo/abc_integrated/media/loop_verified_drive_wall.jpg
+ create mode 100644 course_demo/abc_integrated/media/loop_verified_dual.jpg
+ create mode 100644 course_demo/abc_integrated/media/loop_verified_held.jpg
+ create mode 100644 course_demo/abc_integrated/media/loop_verified_release.jpg
+ create mode 100644 course_demo/abc_integrated/media/loop_verified_selection.jpg
+ create mode 100644 course_demo/abc_integrated/prototype.xml
+ create mode 100644 course_demo/abc_integrated/provenance.json
+ create mode 100644 course_demo/abc_integrated/restore.py
+ create mode 100644 course_demo/abc_integrated/rig.py
+ create mode 100644 course_demo/abc_integrated/scan.py
+ create mode 100644 course_demo/abc_integrated/scene.py
+ create mode 100644 course_demo/abc_integrated/upstream/LICENSE
+ create mode 100644 course_demo/abc_integrated/upstream/LICENSE.franka
+ create mode 100644 course_demo/abc_integrated/upstream/NOTICE
+ create mode 100644 course_demo/abc_integrated/upstream/README.md
+ create mode 100644 course_demo/abc_integrated/upstream/cobot_pump.stl
+ create mode 100644 course_demo/abc_integrated/upstream/fr3v2_cobot_pump.xml
+ create mode 100644 course_demo/abc_integrated/vacuum.py
+To github.com:CaiSir0075/brick-disassembly.git
+   c1c7e4c..d174e5e  HEAD -> codex/ranger-feedback-v52
+From github.com:CaiSir0075/brick-disassembly
+ * branch            codex/ranger-feedback-v52 -> FETCH_HEAD
+d174e5e0060a38b26ccadeb3ff8763ec54e6a4c9

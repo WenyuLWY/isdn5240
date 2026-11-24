@@ -1,0 +1,13 @@
+{
+ "stage": "complete",
+ "target": 28,
+ "sim_time": 53.42399999996619,
+ "picked": [
+  28
+ ],
+ "transfers": 1,
+ "placed": [
+  28
+ ],
+ "snapshot": "/home/cjx/disassembly/abc_course_final/runs/reproduce_first_01/snapshots/01_028_complete.npz"
+}

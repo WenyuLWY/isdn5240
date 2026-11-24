@@ -1,0 +1,881 @@
+{
+ "accepted": 30,
+ "unique_native_bricks": 30,
+ "initial_position_error_m": 0.0,
+ "initial_quat_inner_error": 6.661338147750939e-16,
+ "frames": 38503,
+ "max_sample_gap_s": 0.040000000000190994,
+ "continuous": true,
+ "rows": [
+  {
+   "brick": "brick_028",
+   "body_id": 78,
+   "free_joint": 59,
+   "seal_id": 31,
+   "initial_pose": {
+    "brick_id": "brick_028",
+    "position_m": [
+     0.5851570142551378,
+     -0.1225593181952846,
+     0.21349958304776204
+    ],
+    "quaternion_wxyz": [
+     -6.318185999105166e-07,
+     -0.8802396960060648,
+     -0.4745293221439445,
+     5.987666701964514e-07
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.6102150784622076,
+   "max_step_40ms_m": 0.014970119028590289
+  },
+  {
+   "brick": "brick_024",
+   "body_id": 74,
+   "free_joint": 55,
+   "seal_id": 27,
+   "initial_pose": {
+    "brick_id": "brick_024",
+    "position_m": [
+     0.3051881371916938,
+     -0.34659469561911926,
+     0.2669531758967575
+    ],
+    "quaternion_wxyz": [
+     0.9867286887057442,
+     0.036212527430995546,
+     0.13674796734806,
+     0.07971913928460225
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.579621779462008,
+   "max_step_40ms_m": 0.014622256239039852
+  },
+  {
+   "brick": "brick_020",
+   "body_id": 70,
+   "free_joint": 51,
+   "seal_id": 23,
+   "initial_pose": {
+    "brick_id": "brick_020",
+    "position_m": [
+     0.36943787521645177,
+     -0.20281888834303113,
+     0.2737717952550167
+    ],
+    "quaternion_wxyz": [
+     0.9443602144530785,
+     -0.15069162244967257,
+     -0.11487539018487022,
+     0.26884840526120507
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.7064839082057783,
+   "max_step_40ms_m": 0.015408979674269458
+  },
+  {
+   "brick": "brick_025",
+   "body_id": 75,
+   "free_joint": 56,
+   "seal_id": 28,
+   "initial_pose": {
+    "brick_id": "brick_025",
+    "position_m": [
+     0.45061442648623,
+     -0.2810098911447852,
+     0.31749814730785136
+    ],
+    "quaternion_wxyz": [
+     0.8384991827693116,
+     -0.14346555847414924,
+     0.13717710393001115,
+     -0.5074634924645041
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.7074789418052249,
+   "max_step_40ms_m": 0.014424520353360603
+  },
+  {
+   "brick": "brick_026",
+   "body_id": 76,
+   "free_joint": 57,
+   "seal_id": 29,
+   "initial_pose": {
+    "brick_id": "brick_026",
+    "position_m": [
+     0.5308407475104671,
+     -0.43682794049346546,
+     0.28352054853742875
+    ],
+    "quaternion_wxyz": [
+     0.9344342728674093,
+     0.25878425823238155,
+     0.034140866280545065,
+     0.24227607936296025
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 1.5907764489760776,
+   "max_step_40ms_m": 0.024582605514541826
+  },
+  {
+   "brick": "brick_017",
+   "body_id": 67,
+   "free_joint": 48,
+   "seal_id": 20,
+   "initial_pose": {
+    "brick_id": "brick_017",
+    "position_m": [
+     0.6026201101099206,
+     -0.48351916038108195,
+     0.23484768989086527
+    ],
+    "quaternion_wxyz": [
+     -0.0944553271342939,
+     0.8510525278070511,
+     -0.48972964366394434,
+     -0.16417265973958128
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 2.1059170616603127,
+   "max_step_40ms_m": 0.024430617691578446
+  },
+  {
+   "brick": "brick_014",
+   "body_id": 64,
+   "free_joint": 45,
+   "seal_id": 17,
+   "initial_pose": {
+    "brick_id": "brick_014",
+    "position_m": [
+     0.292171274955118,
+     -0.23588924704366934,
+     0.24265468685096803
+    ],
+    "quaternion_wxyz": [
+     0.22591943069177922,
+     0.5237315668232807,
+     -0.8082275518677685,
+     0.14640314597223772
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.964817069285069,
+   "max_step_40ms_m": 0.014787094981341993
+  },
+  {
+   "brick": "brick_007",
+   "body_id": 57,
+   "free_joint": 38,
+   "seal_id": 10,
+   "initial_pose": {
+    "brick_id": "brick_007",
+    "position_m": [
+     0.40090652436015667,
+     -0.2288431099734311,
+     0.2614561212941576
+    ],
+    "quaternion_wxyz": [
+     0.9373483347060955,
+     -0.055688749328012765,
+     -0.1770843229636106,
+     -0.2948185970771049
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.9638641486798909,
+   "max_step_40ms_m": 0.014897248612101175
+  },
+  {
+   "brick": "brick_019",
+   "body_id": 69,
+   "free_joint": 50,
+   "seal_id": 22,
+   "initial_pose": {
+    "brick_id": "brick_019",
+    "position_m": [
+     0.4368486383188606,
+     -0.38785241692336425,
+     0.29252410321750416
+    ],
+    "quaternion_wxyz": [
+     0.873006643007441,
+     0.21108304251710977,
+     0.1726321927569859,
+     -0.4043531580815394
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 2.1188428444334213,
+   "max_step_40ms_m": 0.01981964409323843
+  },
+  {
+   "brick": "brick_018",
+   "body_id": 68,
+   "free_joint": 49,
+   "seal_id": 21,
+   "initial_pose": {
+    "brick_id": "brick_018",
+    "position_m": [
+     0.5097814621647432,
+     -0.43484420106148525,
+     0.25783067100188695
+    ],
+    "quaternion_wxyz": [
+     0.900110727433178,
+     0.25724286319193873,
+     0.005819631318133477,
+     0.35155784671636636
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 2.459326956117166,
+   "max_step_40ms_m": 0.027511496652225128
+  },
+  {
+   "brick": "brick_016",
+   "body_id": 66,
+   "free_joint": 47,
+   "seal_id": 19,
+   "initial_pose": {
+    "brick_id": "brick_016",
+    "position_m": [
+     0.4860153076812803,
+     -0.35086440442843275,
+     0.26879874920026015
+    ],
+    "quaternion_wxyz": [
+     0.9852950039895785,
+     0.13994557733183519,
+     0.0964354424879145,
+     -0.017583967999155386
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 1.719175682347819,
+   "max_step_40ms_m": 0.019692365035035964
+  },
+  {
+   "brick": "brick_009",
+   "body_id": 59,
+   "free_joint": 40,
+   "seal_id": 12,
+   "initial_pose": {
+    "brick_id": "brick_009",
+    "position_m": [
+     0.4132613923863859,
+     -0.3515117856710012,
+     0.24220848993729982
+    ],
+    "quaternion_wxyz": [
+     0.7694716715239075,
+     0.023032846523399944,
+     0.01910346883552321,
+     0.6379795389992416
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 1.647068649363679,
+   "max_step_40ms_m": 0.020077348915140247
+  },
+  {
+   "brick": "brick_005",
+   "body_id": 55,
+   "free_joint": 36,
+   "seal_id": 8,
+   "initial_pose": {
+    "brick_id": "brick_005",
+    "position_m": [
+     0.3398480948761576,
+     -0.33162161190082734,
+     0.22956472396531333
+    ],
+    "quaternion_wxyz": [
+     0.9865848342880071,
+     0.01192778814518325,
+     0.13912331891895938,
+     -0.08457419674960948
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 1.70164537452319,
+   "max_step_40ms_m": 0.02117387588699417
+  },
+  {
+   "brick": "brick_000",
+   "body_id": 50,
+   "free_joint": 31,
+   "seal_id": 3,
+   "initial_pose": {
+    "brick_id": "brick_000",
+    "position_m": [
+     0.25327622628710833,
+     -0.2755889142127677,
+     0.21349920086628404
+    ],
+    "quaternion_wxyz": [
+     0.8189363580236507,
+     6.662210750447469e-18,
+     -4.668442024095272e-18,
+     -0.5738843450617529
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.7638201018798878,
+   "max_step_40ms_m": 0.014244486169349315
+  },
+  {
+   "brick": "brick_027",
+   "body_id": 77,
+   "free_joint": 58,
+   "seal_id": 30,
+   "initial_pose": {
+    "brick_id": "brick_027",
+    "position_m": [
+     0.5996891684389593,
+     -0.33019437338425894,
+     0.29339765230454956
+    ],
+    "quaternion_wxyz": [
+     0.8650201286536258,
+     0.03477026396455635,
+     0.29368646030384615,
+     -0.4053140372625866
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 2.087993050782063,
+   "max_step_40ms_m": 0.019792702023512916
+  },
+  {
+   "brick": "brick_023",
+   "body_id": 73,
+   "free_joint": 54,
+   "seal_id": 26,
+   "initial_pose": {
+    "brick_id": "brick_023",
+    "position_m": [
+     0.5100060568171157,
+     -0.2832013973069174,
+     0.28176707608593116
+    ],
+    "quaternion_wxyz": [
+     0.9778371120449353,
+     0.09921590783154044,
+     -0.13562675496168405,
+     -0.12488462387078154
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.8523180448105101,
+   "max_step_40ms_m": 0.01437639012729998
+  },
+  {
+   "brick": "brick_021",
+   "body_id": 71,
+   "free_joint": 52,
+   "seal_id": 24,
+   "initial_pose": {
+    "brick_id": "brick_021",
+    "position_m": [
+     0.3334452308102673,
+     -0.2659859273053722,
+     0.25999920086628425
+    ],
+    "quaternion_wxyz": [
+     0.36934514568757904,
+     -0.6029794054169851,
+     -0.36934514568757826,
+     -0.6029794054169861
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.9798287442470975,
+   "max_step_40ms_m": 0.014721550770433247
+  },
+  {
+   "brick": "brick_012",
+   "body_id": 62,
+   "free_joint": 43,
+   "seal_id": 15,
+   "initial_pose": {
+    "brick_id": "brick_012",
+    "position_m": [
+     0.3800743402862224,
+     -0.455942563745398,
+     0.2576109489422399
+    ],
+    "quaternion_wxyz": [
+     0.5046320933225144,
+     0.6953925786045967,
+     -0.12808716507299994,
+     -0.4953476457541204
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 1.9622026324904334,
+   "max_step_40ms_m": 0.02176074699809987
+  },
+  {
+   "brick": "brick_008",
+   "body_id": 58,
+   "free_joint": 39,
+   "seal_id": 11,
+   "initial_pose": {
+    "brick_id": "brick_008",
+    "position_m": [
+     0.3145783313234081,
+     -0.42400609209910484,
+     0.22899920086628409
+    ],
+    "quaternion_wxyz": [
+     0.6626886993697655,
+     0.6626886993697639,
+     0.24666513277642216,
+     0.24666513277642216
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.6573524920337069,
+   "max_step_40ms_m": 0.01745172004215146
+  },
+  {
+   "brick": "brick_029",
+   "body_id": 79,
+   "free_joint": 60,
+   "seal_id": 32,
+   "initial_pose": {
+    "brick_id": "brick_029",
+    "position_m": [
+     0.723789422262953,
+     -0.4029278789129363,
+     0.22899920086628403
+    ],
+    "quaternion_wxyz": [
+     -0.22217749493956968,
+     -0.22217749493956965,
+     0.6712951368380213,
+     0.67129513683802
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 2.0214646726864047,
+   "max_step_40ms_m": 0.02554353110947442
+  },
+  {
+   "brick": "brick_015",
+   "body_id": 65,
+   "free_joint": 46,
+   "seal_id": 18,
+   "initial_pose": {
+    "brick_id": "brick_015",
+    "position_m": [
+     0.5699187935871913,
+     -0.26680196499521996,
+     0.2374037067102774
+    ],
+    "quaternion_wxyz": [
+     0.9807534326473982,
+     0.06007425203228758,
+     0.18131846919125286,
+     0.040464815868198487
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.7876443510710225,
+   "max_step_40ms_m": 0.018050675354711065
+  },
+  {
+   "brick": "brick_022",
+   "body_id": 72,
+   "free_joint": 53,
+   "seal_id": 25,
+   "initial_pose": {
+    "brick_id": "brick_022",
+    "position_m": [
+     0.5877214800779292,
+     -0.3548048766241281,
+     0.247096178502293
+    ],
+    "quaternion_wxyz": [
+     0.6979897816839751,
+     0.009304420939380519,
+     0.16426859122152213,
+     -0.6969501577256706
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.7880411161453295,
+   "max_step_40ms_m": 0.0200171194974624
+  },
+  {
+   "brick": "brick_013",
+   "body_id": 63,
+   "free_joint": 44,
+   "seal_id": 16,
+   "initial_pose": {
+    "brick_id": "brick_013",
+    "position_m": [
+     0.5280506916508148,
+     -0.34678004878163066,
+     0.23311179528547474
+    ],
+    "quaternion_wxyz": [
+     0.9797362014014955,
+     0.12289435094785534,
+     0.10465243033176709,
+     -0.11858255771456204
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 2.0797227560730076,
+   "max_step_40ms_m": 0.020032881266791126
+  },
+  {
+   "brick": "brick_006",
+   "body_id": 56,
+   "free_joint": 37,
+   "seal_id": 9,
+   "initial_pose": {
+    "brick_id": "brick_006",
+    "position_m": [
+     0.43034733993195934,
+     -0.36433244470017373,
+     0.21349920086628368
+    ],
+    "quaternion_wxyz": [
+     0.8015672563158028,
+     6.633279976366239e-18,
+     4.7776873514583485e-18,
+     0.5979046191512113
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.9158050191391899,
+   "max_step_40ms_m": 0.018309211039698643
+  },
+  {
+   "brick": "brick_003",
+   "body_id": 53,
+   "free_joint": 34,
+   "seal_id": 6,
+   "initial_pose": {
+    "brick_id": "brick_003",
+    "position_m": [
+     0.4933217365245246,
+     -0.2699479807178933,
+     0.2300030611167899
+    ],
+    "quaternion_wxyz": [
+     0.879330514260712,
+     -0.022973253308385747,
+     0.12916909537733962,
+     -0.45778315950001996
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.63323037367023,
+   "max_step_40ms_m": 0.015183289524312171
+  },
+  {
+   "brick": "brick_001",
+   "body_id": 51,
+   "free_joint": 32,
+   "seal_id": 4,
+   "initial_pose": {
+    "brick_id": "brick_001",
+    "position_m": [
+     0.39985233741852944,
+     -0.23133367623158213,
+     0.21349960043314187
+    ],
+    "quaternion_wxyz": [
+     0.9884748412782989,
+     1.3227681119427909e-17,
+     -1.9838718897193718e-18,
+     -0.1513852309832166
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 0.6952858812608531,
+   "max_step_40ms_m": 0.013944654240298743
+  },
+  {
+   "brick": "brick_004",
+   "body_id": 54,
+   "free_joint": 35,
+   "seal_id": 7,
+   "initial_pose": {
+    "brick_id": "brick_004",
+    "position_m": [
+     0.6411994499601099,
+     -0.35521369384466234,
+     0.2259819475210446
+    ],
+    "quaternion_wxyz": [
+     0.809670416381058,
+     0.21207547185603612,
+     -0.13865549278989783,
+     -0.5293698757896562
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 2.0366802272431634,
+   "max_step_40ms_m": 0.021442071180295945
+  },
+  {
+   "brick": "brick_002",
+   "body_id": 52,
+   "free_joint": 33,
+   "seal_id": 5,
+   "initial_pose": {
+    "brick_id": "brick_002",
+    "position_m": [
+     0.6798440586964734,
+     -0.29838183299597876,
+     0.21349960043314187
+    ],
+    "quaternion_wxyz": [
+     0.8368923337030836,
+     1.1274360200366673e-17,
+     -7.393160001005025e-18,
+     -0.5473675381213311
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 2.1338338773659986,
+   "max_step_40ms_m": 0.01941266205090259
+  },
+  {
+   "brick": "brick_010",
+   "body_id": 60,
+   "free_joint": 41,
+   "seal_id": 13,
+   "initial_pose": {
+    "brick_id": "brick_010",
+    "position_m": [
+     0.46734782880965703,
+     -0.4458180271481886,
+     0.21349960043314187
+    ],
+    "quaternion_wxyz": [
+     0.9248195397253927,
+     1.2226215640488499e-17,
+     5.059208273137177e-18,
+     0.38040612369165777
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 1.999236824182213,
+   "max_step_40ms_m": 0.022908364948661143
+  },
+  {
+   "brick": "brick_011",
+   "body_id": 61,
+   "free_joint": 42,
+   "seal_id": 14,
+   "initial_pose": {
+    "brick_id": "brick_011",
+    "position_m": [
+     0.5340751734307994,
+     -0.4750017936121313,
+     0.2134992008662837
+    ],
+    "quaternion_wxyz": [
+     0.9218613049659166,
+     7.317611197384088e-18,
+     3.1770376681331544e-18,
+     0.3875199793643373
+    ],
+    "size_m": [
+     0.12,
+     0.058,
+     0.027
+    ]
+   },
+   "held_translation_error_m": 0.0,
+   "held_rotation_error_deg": 0.0,
+   "actual_drive_trace_m": 2.117219894009524,
+   "max_step_40ms_m": 0.02383868768284136
+  }
+ ]
+}

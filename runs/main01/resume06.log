@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 63, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 58, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 292, in cycle
+    self.transfer(h);self.segment('receiver');self.snapshot('receiver')
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 294, in transfer
+    self.finish_handover(prior)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 308, in finish_handover
+    self.move("clear",1.8+.6*(len(home_path)-1),{0:home_path})
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 66, in move
+    try:return super().move(phase,*args,**kw)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 284, in move
+    self.step(phase)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 57, in step
+    super().step(phase)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 30, in step
+    super().step(phase,solved=self.vac.on)
+  File "/home/cjx/disassembly/abc_course_final/rig.py", line 258, in step
+    raise ContactError(f"{phase} collision {err}")
+rig.ContactError: clear collision ('right_pad1', 'rear_arm__pump_section_08', -0.0002590755518801114)

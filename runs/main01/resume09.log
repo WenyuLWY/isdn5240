@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 66, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 61, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 291, in cycle
+    h=self.grasp_feedback(r,f);self.segment('held');self.snapshot('held')
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 246, in grasp_feedback
+    try:return self.grasp(row,family)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 222, in grasp
+    xy,yaw,f,offset,flip=self.pick_plan(row,f)
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 219, in pick_plan
+    self.event('pick_rejections',reasons=failures);raise IKError(f'no qualified station for {row["brick_id"]}: {failures[-3:]}')
+rig.IKError: no qualified station for brick_000: ['blocked drive corridor', 'blocked drive corridor', 'blocked drive corridor']

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 73, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 68, in resume
+    while len(s.accepted)<limit:s.cycle()
+  File "/home/cjx/disassembly/abc_course_final/integrated.py", line 356, in cycle
+    self.transfer(h);self.segment('receiver');self.snapshot('receiver')
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 301, in transfer
+    else:raise IKError("no partial-opening donor exit")
+rig.IKError: no partial-opening donor exit

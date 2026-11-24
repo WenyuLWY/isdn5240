@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 71, in <module>
+    try:resume(s,stage,ar.limit)
+  File "/home/cjx/disassembly/abc_course_final/restore.py", line 59, in resume
+    s.transfer(h);s.segment('receiver');s.snapshot('receiver');stage='receiver'
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 243, in transfer
+    f, top = self.plan(h)
+  File "/home/cjx/disassembly/abc_course_final/demo.py", line 158, in plan
+    raise IKError("no joint transfer pose within budget: "+str(reject))
+rig.IKError: no joint transfer pose within budget: []

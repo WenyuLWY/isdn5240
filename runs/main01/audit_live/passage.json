@@ -1,0 +1,151 @@
+{
+ "before_time": 1415.0539999734503,
+ "checkpoint": "28_002_returned.npz",
+ "permitted": [
+  "brick_010",
+  "brick_011"
+ ],
+ "initial_surface_gap_m": 0.009194316997344212,
+ "exhaustive_within_sampled_families": {
+  "brick_010": {
+   "variants": 630,
+   "certified_grips": [],
+   "most_frequent_rejected_shape_pairs": [
+    [
+     "base_1",
+     "work_table",
+     9812
+    ],
+    [
+     "right_pad1",
+     "work_table",
+     670
+    ],
+    [
+     "right_follower_1",
+     "brick_011_geom",
+     521
+    ],
+    [
+     "right_coupler_1",
+     "brick_011_geom",
+     259
+    ],
+    [
+     "left_follower_1",
+     "brick_011_geom",
+     255
+    ],
+    [
+     "right_spring_link_1",
+     "brick_011_geom",
+     169
+    ],
+    [
+     "base_1",
+     "brick_011_geom",
+     136
+    ],
+    [
+     "left_coupler_1",
+     "brick_011_geom",
+     39
+    ],
+    [
+     "right_driver_1",
+     "brick_011_geom",
+     19
+    ],
+    [
+     "left_spring_link_1",
+     "brick_011_geom",
+     4
+    ]
+   ]
+  },
+  "brick_011": {
+   "variants": 630,
+   "certified_grips": [],
+   "most_frequent_rejected_shape_pairs": [
+    [
+     "base_1",
+     "work_table",
+     9364
+    ],
+    [
+     "right_pad1",
+     "work_table",
+     674
+    ],
+    [
+     "right_follower_1",
+     "brick_010_geom",
+     523
+    ],
+    [
+     "right_coupler_1",
+     "brick_010_geom",
+     260
+    ],
+    [
+     "left_follower_1",
+     "brick_010_geom",
+     255
+    ],
+    [
+     "left_coupler_1",
+     "work_table",
+     208
+    ],
+    [
+     "right_coupler_1",
+     "work_table",
+     208
+    ],
+    [
+     "right_spring_link_1",
+     "brick_010_geom",
+     169
+    ],
+    [
+     "base_1",
+     "brick_010_geom",
+     128
+    ],
+    [
+     "left_coupler_1",
+     "brick_010_geom",
+     39
+    ]
+   ]
+  }
+ },
+ "actual_push": {
+  "phase": "decluttered",
+  "brick_id": 10,
+  "time": 1425.932999973193,
+  "host_utc_unix": 1795448512.3509898,
+  "process_cpu_s": 15.290633853,
+  "ik_cumulative_s": 0.14238938316702843,
+  "actuator_move_cumulative_s": 7.380641160532832,
+  "translation": [
+   -0.013110978574885412,
+   -0.013474093058678582,
+   3.995668581835421e-07
+  ],
+  "peak_pad_force_N": 3.827349942302763,
+  "contact_entities": [
+   "left_pad1",
+   "right_pad1"
+  ],
+  "max_neighbor_move_m": 7.25763913712776e-08
+ },
+ "after_time": 1426.48299997318,
+ "after_target": "brick_010",
+ "after_common_strip_m": [
+  [
+   -0.048499999999999974,
+   -0.045019920054309874
+  ]
+ ]
+}

@@ -1,0 +1,61 @@
+{
+  "dataset": "/home/cjx/disassembly/abc_course_final/runs/main01",
+  "scene_sha256": "0fad344e03ed24ba34cae8e9b87faaa107f4640b79d78ed04ac0f53931075f77",
+  "fps": 25,
+  "resolution": [
+    1440,
+    900
+  ],
+  "renderer": "NVIDIA GeForce RTX 4090/PCIe/SSE2",
+  "gpu": [
+    "2",
+    "GPU-82ac656e-2b77-044e-719a-0566f12cdaa0",
+    "24197",
+    "0"
+  ],
+  "chapters": [
+    {
+      "brick": 28,
+      "slot": 1,
+      "start_s": 0.0,
+      "selection_sim_s": 0.8000000000000006,
+      "picked_sim_s": 4.309999999999774,
+      "held_sim_s": 7.2100000000007425,
+      "phase_frames": {
+        "approach": 12,
+        "align": 2,
+        "insert": 13,
+        "close": 16,
+        "test_lift": 16,
+        "extract": 15,
+        "present_ready": 10,
+        "present": 32,
+        "rear_pre": 13,
+        "rear_align": 20,
+        "dual": 2,
+        "preload": 7,
+        "unload": 14,
+        "lift_free": 7,
+        "clear": 18,
+        "rear_only": 6,
+        "drive_wall": 16,
+        "carry": 18,
+        "lower": 20,
+        "release": 6,
+        "withdraw": 18,
+        "settle": 3,
+        "return": 4,
+        "return_pile": 4
+      },
+      "selection_video_s": 0.0,
+      "selection_frame": 0.8000000000000006,
+      "lift_video_s": 3.28,
+      "updated_video_s": 3.92,
+      "updated_sim_s": 4.319999999999777,
+      "end_s": 14.16
+    }
+  ],
+  "frames": 354,
+  "duration_s": 14.16,
+  "render_wall_s": 7.279658380895853
+}
